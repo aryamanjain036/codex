@@ -1,4 +1,4 @@
-public class q10 {
+public class q_10 {
     public static void main(String[] args) {
         double SpeedKilo = 14;
         double timeInHours = 45.5/60;

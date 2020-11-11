@@ -1,4 +1,4 @@
-public class q4 {
+public class q_4 {
     public static void main(String[] args) {
         System.out.println("a\t a^2\t a^3");
         System.out.println("1\t 1  \t 1");

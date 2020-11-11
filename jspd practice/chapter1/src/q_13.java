@@ -1,4 +1,4 @@
-public class q13 {
+public class q_13 {
     public static void main(String[] args) {
         System.out.print("X = ");
         System.out.println((44.5*.55 - 50.2*5.9)/(3.4*.55 - 50.2*2.1));

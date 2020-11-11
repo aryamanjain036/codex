@@ -1,4 +1,4 @@
-public class q3 {
+public class q_3 {
     public static void main(String[] args){
         System.out.println("   J");
         System.out.println("   J");
