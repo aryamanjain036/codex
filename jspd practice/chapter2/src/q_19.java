@@ -15,7 +15,7 @@ public class q_19 {
         double side3 = Math.pow(Math.pow(x3-x1,2)+Math.pow(y3-y1,2),0.5);
         double sideS = (side1+side2+side3)/2;
         double underArea = sideS*((sideS-side1)*(sideS-side2)*(sideS-side3));
-        double area = Math.pow(underArea,.5);
+        float area = (float) Math.pow(underArea,.5);
         System.out.println("The area of the triangle is " + area);
     }
 }

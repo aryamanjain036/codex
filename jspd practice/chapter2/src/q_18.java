@@ -1,9 +1,22 @@
 public class q_18 {
     public static void main(String[] args) {
-        System.out.println("a\t b\t pow(a,b)");
-        int a,b;
+        float a,b;
+        System.out.println("a\tb\t pow(a,b)");
         a=1;
         b=2;
-        System.out.println(a + b + Math.pow(a,b));
+        System.out.println((int)a + "\t" + (int)b + "\t" + (int)Math.pow(a,b));
+        a++;
+        b++;
+        System.out.println((int)a + "\t" + (int)b + "\t" + (int)Math.pow(a,b));
+        a++;
+        b++;
+        System.out.println((int)a + "\t" + (int)b + "\t" + (int)Math.pow(a,b));
+        a++;
+        b++;
+        System.out.println((int)a + "\t" + (int)b + "\t" + (int)Math.pow(a,b));
+        a++;
+        b++;
+        System.out.println((int)a + "\t" + (int)b + "\t" + (int)Math.pow(a,b));
+
     }
 }
