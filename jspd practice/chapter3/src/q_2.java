@@ -10,7 +10,5 @@ public class q_2 {
         int sum = scan.nextInt();
         System.out.println(number1 + " + " + number2 + " + " + number3 +
                 " = " + sum + " is " + (number1+number2+number3==sum));
-
-
     }
 }
