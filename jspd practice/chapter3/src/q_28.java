@@ -19,7 +19,7 @@ public class q_28 {
         double finalHeight2 = height2*2;
         double distanceBetweenCoordinates = Math.pow(Math.pow(x2-x1,2)+Math.pow(y2-y1,2),0.5);
         if (distanceBetweenCoordinates<=width1 || distanceBetweenCoordinates<= height1){
-            
+
         }
     }
 }
