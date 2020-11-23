@@ -7,20 +7,57 @@ public class q_5 {
         int day = scan.nextInt();
         System.out.println("Enter the number of days elapsed since today : ");
         int elapsedDay = scan.nextInt();
-        String futureDay;
         int tempDate;
         if (day+elapsedDay<=6)
             tempDate = day+elapsedDay;
         else tempDate = (day+elapsedDay)%7;
-        switch (tempDate){
-            case 0: futureDay = "Sunday";break;
-            case 1: futureDay = "Monday";break;
-            case 2: futureDay = "Tuesday";break;
-            case 3: futureDay = "Wednesday";break;
-            case 4: futureDay = "Thursday";break;
-            case 5: futureDay = "Friday";break;
-            case 6: futureDay = "Saturday";break;
+        System.out.print("Today is ");
+        switch (day){
+            case 0:
+                System.out.print("Sunday");
+                break;
+            case 1:
+                System.out.print("Monday");
+                break;
+            case 2:
+                System.out.print("Tuesday");
+                break;
+            case 3:
+                System.out.print("Wednesday");
+                break;
+            case 4:
+                System.out.print("Thursday");
+                break;
+            case 5:
+                System.out.print("Friday");
+                break;
+            case 6:
+                System.out.print("Saturday");
+                break;
         }
-//        System.out.println("Today is " + day + " and the future day is " + futureDay);
+        System.out.print(" and the future day is ");
+        switch (tempDate){
+            case 0:
+                System.out.print("Sunday");
+                break;
+            case 1:
+                System.out.print("Monday");
+                break;
+            case 2:
+                System.out.print("Tuesday");
+                break;
+            case 3:
+                System.out.print("Wednesday");
+                break;
+            case 4:
+                System.out.print("Thursday");
+                break;
+            case 5:
+                System.out.print("Friday");
+                break;
+            case 6:
+                System.out.print("Saturday");
+                break;
+        }
     }
 }
