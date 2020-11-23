@@ -8,18 +8,25 @@ public class q_28 {
         double y1 = scan.nextDouble();
         double width1 = scan.nextDouble();
         double height1 = scan.nextDouble();
-        double finalWidth1 = width1*2;
-        double finalHeight1 = height1*2;
         System.out.println("Enter r2's center x- , y-coordinate , width, and height :");
         double x2 = scan.nextDouble();
         double y2 = scan.nextDouble();
         double width2 = scan.nextDouble();
         double height2 = scan.nextDouble();
-        double finalWidth2 = width2*2;
-        double finalHeight2 = height2*2;
-        double distanceBetweenCoordinates = Math.pow(Math.pow(x2-x1,2)+Math.pow(y2-y1,2),0.5);
-        if (distanceBetweenCoordinates<=width1 || distanceBetweenCoordinates<= height1){
-
+        double extremePositiveX1 = x1 + (width1/2);
+        double extremeNegativeX1 = x1 - (width1/2);
+        double extremePositiveY1 = y1 + (height1/2);
+        double extremeNegativeY1 = y1 - (height1/2);
+        double extremePositiveX2 = x2 + (width2/2);
+        double extremeNegativeX2 = x2 - (width2/2);
+        double extremePositiveY2 = y2 + (height2/2);
+        double extremeNegativeY2 = y2 - (height2/2);
+        if ((extremeNegativeX2>=extremeNegativeX1 && extremePositiveX2<=extremePositiveX1)
+        && (extremeNegativeY2>=extremeNegativeY1 && extremePositiveY2<=extremePositiveY1)){
+            System.out.println("r2 is inside r1");
         }
+
+
+
     }
 }
