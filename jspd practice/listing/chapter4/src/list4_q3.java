@@ -47,19 +47,16 @@ public class list4_q3 {
         if (set1Reply == 1){
             finalR+=1;
         }
-
         if (set2Reply == 1){
             finalR+=2;
         }
-
         if (set3Reply == 1){
-            finalR=+4;
+            finalR+=4;
         }
-
         if (set4Reply == 1){
             finalR+=8;
         }
-
+        System.out.println(finalR);
         if (set5Reply == 1){
             finalR+=16;
         }
