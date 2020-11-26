@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class q_2 {
+public class q_3 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter point 1 (latitude and longitude) in degrees: ");
