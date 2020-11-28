@@ -4,7 +4,7 @@ public class q_7 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter an amount in double, for example 11.56: ");
+        System.out.println("Enter an amount in double, for example 11.56: ");
         double amount = scan.nextDouble();
         int remainingAmount = (int)(amount * 100);
         int numberOfOneDollars = remainingAmount / 100;
@@ -20,10 +20,40 @@ public class q_7 {
         if (numberOfOneDollars==0){
 
         }
-        System.out.println(" " + numberOfOneDollars + " dollars");
-        System.out.println(" " + numberOfQuarters + " quarters ");
-        System.out.println(" " + numberOfDimes + " dimes");
-        System.out.println(" " + numberOfNickels + " nickels");
-        System.out.println(" " + numberOfPennies + " pennies");
-    }
+        if (numberOfOneDollars==1){
+            System.out.println(" " + numberOfOneDollars + " dollar");
+        }
+        else if (numberOfOneDollars==0){
+            System.out.print("");
+        }
+        else System.out.println(" " + numberOfOneDollars + " dollars");
+
+        if (numberOfQuarters==1){
+            System.out.print(" " + numberOfQuarters + " quarter");
+        }
+        else if (numberOfQuarters==0){
+            System.out.print("");
+        }
+        else System.out.println(" " + numberOfQuarters + " quarters");
+        if (numberOfDimes==1){
+            System.out.println(" " + numberOfDimes + " dime");
+        }
+        else if (numberOfDimes==0){
+            System.out.print("");
+        }
+        else System.out.println(" " + numberOfDimes + " dimes");
+        if (numberOfNickels==1){
+            System.out.println(" " + numberOfNickels + " nickel");
+        }
+        else if (numberOfNickels==0){
+            System.out.print("");
+        }
+        else System.out.println(" " + numberOfNickels + " nickels");
+        if (numberOfPennies==1){
+            System.out.println(" " + numberOfPennies + " penny");
+        }
+        else if (numberOfPennies==0){
+            System.out.print("");
+        }
+        else System.out.println(" " + numberOfPennies + " pennies");    }
 }
